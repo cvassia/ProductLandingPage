@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.firstwords {
+  height: 47em;
+  background-image: url("pictures/sahin-yesilyaprak-546700-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courgette", cursive;
+  letter-spacing: 1em;
+
+  line-height: 9em;
+  text-transform: uppercase;
+}
+
+.paddingtop {
+  padding-bottom: 5em;
+}
+
+.firstwords h3 {
+  font-size: 1.6em;
+  line-height: 4em;
+}
+
+.firstwords h2 {
+  font-size: 2.3em;
+  font-weight: 100;
+  line-height: 2em;
+}
+
+.firstwords h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 9.1em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  font-stretch: ultra-condensed;
+}
+
+#followbutton {
+  text-decoration: none;
+  position: absolute;
+  top: 17em;
+  right: 10em;
+  color: antiquewhite;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 2em;
+
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.733);
+}
+
+/* first infos */
+
+#generalinfo {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  /* align-content: space-around; */
+  background-image: url(pictures/fg.jpg);
+  background-size: cover;
+  margin-top: -2px;
+}
+
+.text {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: "Courgette", cursive;
+  color: aliceblue;
+  text-align: justify;
+  background-color: rgba(128, 128, 128, 0.212);
+  padding: 1.5em;
+  border-radius: 1.5em;
+  align-content: flex-end;
+  box-shadow: 1px 1px 45px 2px rgba(0, 0, 0, 0.59);
+}
+
+#generalinfo h2,
+#generalinfo p {
+  margin-top: 1.5em;
+}
+
+/* navbar */
+
+.topnav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 5em;
+  background-color: black;
+
+  background-color: rgba(0, 0, 0, 0.61);
+  border-bottom: 2px solid black;
+}
+
+#baricon {
+  /* display: inline-block; */
+  padding-top: 0.5em;
+}
+
+.navbarcontent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hrefs {
+  padding-top: 29px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(230, 227, 227);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 7em;
+  margin: 0 auto;
+  width: 70%;
+  color: azure;
+}
+.abouttheproduct {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-image: url(pictures/32.jpg);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+}
+
+.abouttheproduct article {
+  flex: 40%;
+  text-align: justify;
+  padding: 2%;
+  flex-direction: column;
+  padding-top: 1em;
+  /* width: 50%; */
+}
+
+.abouttheproduct i,
+.abouttheproduct h4,
+.abouttheproduct p {
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+  margin: 0 auto;
+  width: 70%;
+  color: azure;
+}
