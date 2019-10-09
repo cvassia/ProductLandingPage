@@ -337,7 +337,8 @@ iframe {
 	justify-content: center;
 	align-items: center;
 	padding: 15px;
-	background-image: url("pictures/43.jpg");
+	background-image: url(pictures/43.jpg);
+
 	background-size: cover;
 }
 
