@@ -19,6 +19,17 @@
       href="https://fonts.googleapis.com/css?family=Courgette"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
 
     <title>Document</title>
   </head>
@@ -57,17 +68,18 @@
       </div>
     </div>
 
-    <div class="abouttheproduct">
-      <nav class="topnav">
+    <div>
+    <nav class="topnav">
         <ul class="navbarcontent">
           <li><i id="baricon" class="fab fa-accusoft fa-3x"></i></li>
-          <li class="hrefs"><a href="#howitworks">How it works</a>/li></li>
+          <li class="hrefs"><a href="#howitworks">How it works</a></li>
           <li class="hrefs"><a href="#reviews">reviews</a></li>
-          <li class="hrefs"><a href="#buyme">Buy me</a></li>
           <li class="hrefs"><a href="#contactus">Contact Us</a></li>
         </ul>
       </nav>
-      <h3 class="header">
+    <div class="abouttheproduct">
+     
+      <h3 id="howitworks" class="header">
         An eco-friendly Solar Tent Design, that provides sufficient power for
         every need.
       </h3>
@@ -113,67 +125,115 @@
         </p>
       </article>
     </div>
-    <!-- <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/aJcCNaO8rac"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe> -->
+  
 
-    <!-- <section class="reviews">
+    <section id="reviews">
+      <div id="frases">
       <h2>passion for camping</h2>
       <h1>Our Customer Stories</h1>
-      <h2>tell us your story...</h2>
-      <div>
-        <img src="pictures/1.jpg" alt="person1" />
-        <article>
+      
+    </div>
+      <div id="flexContainer">
+      <figure>
+        <img  class="reviewPic" src="pictures/1.jpg" alt="person1" />
+        <figcaption>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex magni eos
           amet numquam doloribus corporis, maiores dolores exercitationem velit
           eligendi porro deserunt neque incidunt dolor sint! Repellat dolor
           maiores magnam? Vitae eum veniam similique dolore laudantium rerum,
           cum quod, vero at quasi libero repellat praesentium tempore.
-        </article>
+        </figcaption>
+      </figure>
+      <figure>
+          <img  class="reviewPic" src="pictures/2.jpg" alt="person2" />
+          <figcaption>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex magni eos
+            amet numquam doloribus corporis, maiores dolores exercitationem velit
+            eligendi porro deserunt neque incidunt dolor sint! Repellat dolor
+            maiores magnam? Vitae eum veniam similique dolore laudantium rerum,
+            cum quod, vero at quasi libero repellat praesentium tempore.
+          </figcaption>
+      </figure>
+      <figure>
+          <img  class="reviewPic" src="pictures/3.jpg" alt="person3" />
+          <figcaption>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex magni eos
+            amet numquam doloribus corporis, maiores dolores exercitationem velit
+            eligendi porro deserunt neque incidunt dolor sint! Repellat dolor
+            maiores magnam? Vitae eum veniam similique dolore laudantium rerum,
+            cum quod, vero at quasi libero repellat praesentium tempore.
+          </figcaption>
+      </figure>
+      <figure>
+          <img  class="reviewPic" src="pictures/4.jpg" alt="person4" />
+          <figcaption>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex magni eos
+            amet numquam doloribus corporis, maiores dolores exercitationem velit
+            eligendi porro deserunt neque incidunt dolor sint! Repellat dolor
+            maiores magnam? Vitae eum veniam similique dolore laudantium rerum,
+            cum quod, vero at quasi libero repellat praesentium tempore.
+          </figcaption>
+      </figure>
+      <figure>
+          <img  class="reviewPic" src="pictures/5.jpg" alt="person5" />
+          <figcaption>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex magni eos
+            amet numquam doloribus corporis, maiores dolores exercitationem velit
+            eligendi porro deserunt neque incidunt dolor sint! Repellat dolor
+            maiores magnam? Vitae eum veniam similique dolore laudantium rerum,
+            cum quod, vero at quasi libero repellat praesentium tempore.
+          </figcaption>
+      </figure>
+      <figure>
+          <img  class="reviewPic" src="pictures/6.jpg" alt="person6" />
+          <figcaption>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex magni eos
+            amet numquam doloribus corporis, maiores dolores exercitationem velit
+            eligendi porro deserunt neque incidunt dolor sint! Repellat dolor
+            maiores magnam? Vitae eum veniam similique dolore laudantium rerum,
+            cum quod, vero at quasi libero repellat praesentium tempore.
+          </figcaption>
+      </figure>
+    </div>
+
+    <div id="contactus">
+    <h2 id="yourStory">tell us your story...</h2>
+      
+    </section> 
+    <div class="bg-contact2" style="background-image: url('43.jpg');">
+      <div class="container-contact2">
+        <div class="wrap-contact2">
+          <form class="contact2-form validate-form">
+          
+  
+            <div class="wrap-input2 validate-input" data-validate="Name is required">
+              <input class="input2" type="text" name="name">
+              <span class="focus-input2" data-placeholder="name"></span>
+            </div>
+  
+            <div class="wrap-input2 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+              <input class="input2" type="text" name="email">
+              <span class="focus-input2" data-placeholder="email"></span>
+            </div>
+  
+            <div class="wrap-input2 validate-input" data-validate = "Message is required">
+              <textarea class="input2" name="message"></textarea>
+              <span class="focus-input2" data-placeholder="message"></span>
+            </div>
+  
+            <div class="container-contact2-form-btn">
+              <div class="wrap-contact2-form-btn">
+                <div class="contact2-form-bgbtn"></div>
+                <button class="contact2-form-btn">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
-      <div>
-        <img src="pictures/2.jpg" alt="person2" />
-        <article>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nulla
-          ipsum minus, labore dolore deserunt ipsa non ad nisi iusto nihil
-          officia maiores aspernatur delectus expedita, magni perspiciatis
-          architecto corrupti? Vitae eum veniam similique dolore laudantium
-          rerum, cum quod, vero at quasi libero repellat praesentium tempore.
-        </article>
-      </div>
-      <div>
-        <img src="pictures/3.jpg" alt="person3" />
-        <article>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eum
-          veniam similique dolore laudantium rerum, cum quod, vero at quasi
-          libero repellat praesentium tempore, adipisci delectus debitis
-          exercitationem quos sed? Vitae eum veniam similique dolore laudantium
-          rerum, cum quod, vero at quasi libero repellat praesentium tempore.
-        </article>
-      </div>
-      <div>
-        <img src="pictures/4.jpg" alt="person4" />
-        <article>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ut
-          tenetur accusantium labore eligendi vel, quaerat nam minima similique
-          in nemo libero nihil. Tempora laudantium harum, rerum sed asperiores
-          et? Vitae eum veniam similique dolore laudantium rerum, cum quod, vero
-          at quasi libero repellat praesentium tempore.
-        </article>
-      </div>
-      <button>your review</button>
-    </section> -->
-    <!-- <section class="contact">
-      <h2>Contact Us</h2>
-      <p>
-        Contact us now if you have questions about our product or if you would
-        like to request a quote! We'd be happy to hear from you.
-      </p>
-    </section> -->
+    </div>
+  </div>
+</div>
   </body>
 </html>
